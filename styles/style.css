@@ -1,6 +1,12 @@
 .container {
-  width: 1100px;       
-  height: 3028px;      
+  max-width: 1100px;       
+  height: 3028px;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 100%;
+  }
 }
 
 .header {
@@ -64,7 +70,7 @@
   list-style: none;
 }
 
-.address__link {   
+.address__link {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -185,7 +191,6 @@
 .card {
   width: 334px;
   min-height: 596px;
-  display: inline-block;
   display: flex;
   flex-direction: column;
 }
@@ -260,7 +265,7 @@
   width: 192px;
   height: 23px;
   margin: 28px 820px 0px 40px;
-  text-decoration: underline;   
+  text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 }
@@ -322,10 +327,10 @@
 }
 
 .footer {
- width: 1100px;
- min-height: 180px; 
- display: grid;
- grid-template-columns: repeat(3, 1fr);
+  width: 1100px;
+  min-height: 180px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .address__footer {
