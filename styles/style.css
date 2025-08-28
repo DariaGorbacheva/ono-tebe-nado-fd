@@ -91,12 +91,13 @@
 .cover {
   background:
   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-  url(C:/Users/ymnic/Desktop/ono-tebe-nado-fd/images/cover.jpg);
+  url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
   min-height: 757px;
   margin-bottom: 185px;
+  background-attachment: fixed;
 }
 
 .cover__title {
@@ -198,7 +199,7 @@
 .card__type-book {
   background:
   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-  url(C:/Users/ymnic/Desktop/ono-tebe-nado-fd/images/card-lot-02.jpg);
+  url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center
 }
@@ -242,7 +243,7 @@
 .card__type-film {
   background:
   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-  url(C:/Users/ymnic/Desktop/ono-tebe-nado-fd/images/card-lot-01.jpg);
+  url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -250,7 +251,7 @@
 .card__type-picture {
   background:
   linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-  url(C:/Users/ymnic/Desktop/ono-tebe-nado-fd/images/card-lot-03.jpg);
+  url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center
 }
@@ -292,7 +293,7 @@
 .about__logo-image {
   width: 148px;
   height: 114px;
-  background: url(C:/Users/ymnic/Desktop/ono-tebe-nado-fd/images/logo-white.svg);
+  background: url(../images/logo-white.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
