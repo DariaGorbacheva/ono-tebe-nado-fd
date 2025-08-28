@@ -141,10 +141,10 @@
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0%;
+  word-spacing: 18px;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-transform: uppercase;
-  color: rgb(255, 255, 255); 
-  word-spacing: 18px; 
   padding-left: 52px;
 }
 
