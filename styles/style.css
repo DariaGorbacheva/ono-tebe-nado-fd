@@ -135,7 +135,6 @@
 }
 
 .cover__text {
-  color: rgb(255, 255, 255); 
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -144,6 +143,7 @@
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
+  color: rgb(255, 255, 255); 
   word-spacing: 18px; 
   padding-left: 52px;
 }
