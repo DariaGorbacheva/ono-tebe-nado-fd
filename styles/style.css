@@ -20,9 +20,6 @@
   list-style: none;
 }
 
-.link__active {
-  text-decoration: none;
-}
 
 .link {
   font-family: Raleway, sans-serif;
@@ -182,9 +179,7 @@
 }
 
 .card__type-book {
-  background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
-  url(../images/card-lot-02.jpg); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/card-lot-02.jpg);
 }
 
 .link__card {
@@ -223,15 +218,11 @@
 }
 
 .card__type-film {
-  background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
-  url(../images/card-lot-01.jpg); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/card-lot-01.jpg); 
 }
 
 .card__type-picture {
-  background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
-  url(../images/card-lot-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/card-lot-03.jpg);
 }
 
 .lots__look-more-link {
